@@ -4,7 +4,7 @@ date: {{ date }}
 tags:
 - 
 categories: 
-- 
+- leetcode
 mathjax: true
 
 ---
@@ -17,5 +17,19 @@ mathjax: true
 
 <!-- more -->
 
+[leetcode]()
 
+### 题意
+
+
+
+### 题解
+
+
+
+### 代码
+
+```c++
+
+```
 

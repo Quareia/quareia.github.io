@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: Quareia' Blog
+subtitle: Run or Die
+description: ML/DL/NLP/Algorithm
 keywords:
-author: John Doe
-language: en
+author: quareia
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://quareia.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -73,9 +73,29 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: ssh://git@github.com/Quareia/quareia.github.io
+  branch: master
+
+# abbrlink config
+abbrlink:
+  alg: crc32  # crc16(default) and crc32
+  rep: hex    # dec(default) and hex
+
+# local search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
