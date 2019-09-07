@@ -42,3 +42,6 @@
 .site-title {
   font-size: 24px;
 }
+.post-body img {
+  border: none;
+}
