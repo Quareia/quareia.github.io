@@ -1077,7 +1077,7 @@ pre .javascript .function {
 }
 .site-title {
   display: inline-block;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Comic Sans MS', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1816,7 +1816,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cff;
+  background: #8cd7ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2828,9 +2828,6 @@ ul.breadcrumb li+li:last-child {
   color: #fff;
   border-color: #555;
 }
-.site-title {
-  font-family: Comic Sans MS;
-}
 /*
 .sidebar-nav .sidebar-nav-active {
   color: #000;
@@ -2853,9 +2850,12 @@ ul.breadcrumb li+li:last-child {
   opacity:0.8;
 }
 */
-.site-title {
-  font-size: 24px;
-}
 .post-body img {
   border: none;
+}
+.post-body {
+  font-size: 14px;
+}
+.code {
+  font-size: 14px;
 }

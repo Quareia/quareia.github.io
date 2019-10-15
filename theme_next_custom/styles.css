@@ -14,9 +14,6 @@
   color: #fff;
   border-color: #555;
 }
-.site-title {
-  font-family: Comic Sans MS;
-}
 /*
 .sidebar-nav .sidebar-nav-active {
   color: #000;
@@ -39,9 +36,12 @@
   opacity:0.8;
 }
 */
-.site-title {
-  font-size: 24px;
-}
 .post-body img {
   border: none;
+}
+.post-body {
+  font-size: 14px;
+}
+.code {
+  font-size: 14px;
 }
